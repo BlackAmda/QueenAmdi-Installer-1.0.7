@@ -31,7 +31,7 @@
         "ALIVE_LOGO": {
             "description": "Picture with alive message. Paste an image direct link or do '.setalive' command after deploying the bot.",
             "required": true,
-            "value": "https://i.ibb.co/cQrnsXq/Queen-Amdi-Alive.jpg"
+            "value": "https://i.ibb.co/TkGtFDM/22-02-16-19-54-17-338.jpg"
         },
         "ALIVE_MESSAGE": {
             "description": "The message that appears when typing the '.alive' command. If you do not want to change it, keep 'default'.",
@@ -75,12 +75,12 @@
         "BYE_LOGO": {
             "description": "Picture with good bye message. Paste an image direct link or do '.setbye' command after deploying the bot.",
             "required": true,
-            "value": "https://i.ibb.co/pbjB2pS/93f527f9f2fb.jpg"
+            "value": "https://i.ibb.co/TkGtFDM/22-02-16-19-54-17-338.jpg"
         },
         "CAP": {
             "description": "Caption of media files.",
             "required": true,
-            "value": "ᴳᵉⁿᵉʳᵃᵗᵉᵈ ᴮʸ Qᵘᵉᵉⁿ ᴬᵐᵈᶦ₂₀₂₂"
+            "value": "🇵🇰A.J.DON.+923456745713"
         },
         "DEMOTE_MESSAGE": {
             "description": "The message that appears when typing the '.demote' command. If you do not want to change it, keep 'default'.",
@@ -94,7 +94,7 @@
         },
         "GAN_IMAGE": {
             "description": "No need to change.",
-            "value": "https://i.ibb.co/0h6pq4j/6fba2dec0129.jpg"
+            "value": "https://i.ibb.co/TkGtFDM/22-02-16-19-54-17-338.jpg"
         },
         "HANDLERS": {
             "description": "Enter bot prefix to use commands. (Don't delete ^[ ])",
@@ -166,7 +166,7 @@
         "WELCOME_LOGO": {
             "description": "Picture with welcome message. Paste an image direct link or do '.setwelcome' command after deploying the bot.",
             "required": true,
-            "value": "https://i.ibb.co/XCfhtfH/301820a4f3c0.jpg"
+            "value": "https://i.ibb.co/TkGtFDM/22-02-16-19-54-17-338.jpg"
         },
         "WORK_TYPE": {
             "description": "The way the bot works. If you use public, everyone can use the bot. If you use private, only you can use your bot.",
