@@ -1,207 +1,161 @@
 {
-    "name": "Queen Amdi 3.6.2v",
-    "description": "Queen Amdi is a chat bot for WhatsApp. 💃🏻❤️",
-    "keywords": [
-        "Queen Amdi",
-        "WhatsApp",
-        "User Bot",
-        "Chat bot",
-        "Button bot",
-        "Black Amda"
-    ],
-    "website": "https://amdaniwasa.com",
-    "logo": "https://amdaniwasa.com/assets/QAAppjson.gif",
-    "success_url": "https://dashboard.heroku.com/apps/",
+    "name": "WhatsAsenaDuplicated",
+    "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai", "asena", "ai-bot", "AsenaDev", "wabot", "wabot asena", "wp bot"],
+    "repository": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated",
+    "website":   "https://t.me/phaticusthiccy",
+    "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
-    "env":{
-        "AMDI_SESSION": {
-            "description": "Paste the session code you received after scanning the QR from https://replit.com/@BlackAmda/Queen-Amdi-QR-Code",
+    "env": {
+        "ASENA_SESSION": {
+            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
             "required": true
-        },
-        "ADD_MESSAGE": {
-            "description": "Message that a member has been added to the group. If you do not want to change it, keep 'default'.",
-            "required": true,
-            "value": "default"
-        },
-        "AFK_MESSAGE": {
-            "description": "AFK message when you in AFK mode.",
-            "required": true,
-            "value": "default"
-        },
-        "ALIVE_LOGO": {
-            "description": "Picture with alive message. Paste an image direct link or do '.setalive' command after deploying the bot.",
-            "required": true,
-            "value": "https://i.ibb.co/cQrnsXq/Queen-Amdi-Alive.jpg"
-        },
-        "ALIVE_MESSAGE": {
-            "description": "The message that appears when typing the '.alive' command. If you do not want to change it, keep 'default'.",
-            "required": true,
-            "value": "default"
-        },
-        "AMDI_CHAT": {
-            "description": "Full Artificial intelligence(AI) based chat bot feature. Type 'true' to enable and type 'false' to disable.",
-            "required": true,
-            "value": "false"
-        },
-        "ANTIBAD": {
-            "description": "Bad word protection for groups. Type 'true' to enable and type 'false' to disable Anti-Bad.",
-            "required": true,
-            "value": "false"
-        },
-        "ANTIBUG": {
-            "description": "Bug hole protection for groups. Type 'true' to enable and type 'false' to disable Anti-Bug.",
-            "required": true,
-            "value": "true"
-        },
-        "ANTILINK": {
-            "description": "Remove members when share unwanted links for groups. Type 'true' to enable and type 'false' to disable Anti-Link.",
-            "required": true,
-            "value": "false"
-        },
-        "BAN_MESSAGE": {
-            "description": "The remove message that appears when type the '.ban' command. If you do not want to change it, keep 'default'.",
-            "required": true,
-            "value": "default"
-        },
-        "BLOCK_CHAT": {
-            "description": "Type the JID address of the chat to disable the bot that works in chat.",
-            "value": "no chats added"
-        },
-        "BLOCK_MESSAGE": {
-            "description": "The message that appears when typing the '.block' command. If you do not want to change it, keep 'default'.",
-            "required": true,
-            "value": "default"
-        },
-        "BYE_LOGO": {
-            "description": "Picture with good bye message. Paste an image direct link or do '.setbye' command after deploying the bot.",
-            "required": true,
-            "value": "https://i.ibb.co/pbjB2pS/93f527f9f2fb.jpg"
-        },
-        "CAP": {
-            "description": "Caption of media files.",
-            "required": true,
-            "value": "ᴳᵉⁿᵉʳᵃᵗᵉᵈ ᴮʸ Qᵘᵉᵉⁿ ᴬᵐᵈᶦ₂₀₂₂"
-        },
-        "DEMOTE_MESSAGE": {
-            "description": "The message that appears when typing the '.demote' command. If you do not want to change it, keep 'default'.",
-            "required": true,
-            "value": "default"
-        },
-        "DM_BLOCK": {
-            "description": "Block everyone when send a message to inbox. Type 'true' to enable and type 'false' to disable inbox blocker.",
-            "required": true,
-            "value": "false"
-        },
-        "GAN_IMAGE": {
-            "description": "No need to change.",
-            "value": "https://i.ibb.co/0h6pq4j/6fba2dec0129.jpg"
-        },
-        "HANDLERS": {
-            "description": "Enter bot prefix to use commands. (Don't delete ^[ ])",
-            "required": true,
-            "value": "^[.!#]"
-        },
-        "IMGBB": {
-            "description": "Paste your imgbb API to change ALIVE,Welcome,Bye pictures by a command. (Visit https://imgbb.com/ and signup there. And get an API key from https://api.imgbb.com/)",
-            "required": true
-        },
-        "KICKME_MESSAGE": {
-            "description": "The message that appears when typing the '.kickme' command. If you do not want to change it, keep 'default'.",
-            "required": true,
-            "value": "default"
-        },
-        "LANGUAGE": {
-            "description": "Bot language. Type EN for English and type SI for Sinhala.",
-            "required": true,
-            "value": "EN"
-        },
-        "MAX_SIZE": {
-            "description": "Set maximum media file sending size. Type size in MB. To best performance keep 90mb.",
-            "required": true,
-            "value": "90"
-        },
-        "MENU": {
-            "description": "Set your command to get full command list.",
-            "required": true,
-            "value": "panel"
-        },
-        "MUTE_MESSAGE": {
-            "description": "The message that appears when typing the '.mute' command. If you do not want to change it, keep 'default'.",
-            "required": true,
-            "value": "default"
-        },
-        "NAME": {
-            "description": "Your name. This will appear in your menu and many commands.",
-            "required": true
-        },
-        "NO_ERROR_LOG": {
-            "description": "Stop all error messages in Log number. Type 'true' to enable and type 'false' to disable Error Log Blocker.",
-            "required": true,
-            "value": "false"
-        },
-        "PANEL_EMOJI": {
-            "description": "You can change panel emojis. (Make sure to split emojis with / )",
-            "required": true,
-            "value": "📘/📖"
-        },
-        "PROMOTE_MESSAGE": {
-            "description": "The message that appears when typing the '.promote' command. If you do not want to change it, keep 'default'.",
-            "required": true,
-            "value": "default"
-        },
-        "SEND_READ": {
-            "description": "Need to show user whether bot message seen or not?",
-            "required": true,
-            "value": "true"
         },
         "SUDO": {
-            "description": "If you do not know how to use it, leave it blank! SUDO mode; Your number must be an international number. So you have to have your number after the country code. Example: 947xxxxxxxx (Sri lanka No. 94)",
+            "description": "Kullanıcılara tüm yetkileri verir. It gives all the privileges to the users. => 90xxx,0,90xxx,0,90xxx...",
             "required": false
         },
-        "UNMUTE_MESSAGE": {
-            "description": "The message that appears when typing the '.unmute' command. If you do not want to change it, keep 'default'.",
+        "LANGUAGE": {
+            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt, Russian => ru",
             "required": true,
-            "value": "default"
+            "value": "TR"
         },
-        "WELCOME_LOGO": {
-            "description": "Picture with welcome message. Paste an image direct link or do '.setwelcome' command after deploying the bot.",
-            "required": true,
-            "value": "https://i.ibb.co/XCfhtfH/301820a4f3c0.jpg"
+        "PROXY": {
+            "description": "Proxy Adresi. Proxy Address => http://some-host:1234",
+            "required": false,
+            "value": "false"
         },
-        "WORK_TYPE": {
-            "description": "The way the bot works. If you use public, everyone can use the bot. If you use private, only you can use your bot.",
+        "ANTI_LINK": {
+            "description": "Link Engelleme Sistemi. Link Blocking System.",
             "required": true,
-            "value": "private"
+            "value": "false"
+        },
+        "AUTO_BIO": {
+            "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
+            "required": true,
+            "value": "false"
+        },
+        "HANDLERS": {
+            "description": "Komutlar için. For commands.",
+            "required": true,
+            "value": "^[.!;]"
+        },
+        "FULL_EVA": {
+            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
+            "required": true,
+            "value": "false"
+        },
+        "NO_LOG": {
+            "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
+            "required": true,
+            "value": "false"
+        },
+        "SEND_READ": {
+            "description": "Görüldü atmak istiyorsanız true yazın. Write true if you want to throw seen.",
+            "required": true,
+            "value": "true"
         },
         "HEROKU": {
-            "description": "Heroku",
+            "description": "Herokuda çalışıyorsa true yazın. If it is running in Heroku, type true.",
             "required": true,
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy the API key and paste the API Key empty box below.",
+            "description": "Herokuda API Keyiniz. Heroku API Key. ===> https://t.me/herokuapikeyscraper",
             "required": true
         },
+        "MUTE_MESSAGE": {
+            "description": "Düzenlenebilir Mute Mesajı. Customizable Mute Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_CHAT": {
+            "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
+            "required": false,
+            "value": "false"
+        },
+        "UNMUTE_MESSAGE": {
+            "description": "Düzenlenebilir Unmute Mesajı. Customizable Unmute Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_MESSAGE": {
+            "description": "Düzenlenebilir Block Mesajı. Customizable Block Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "UNBLOCK_MESSAGE": {
+            "description": "Düzenlenebilir Unblock Mesajı. Customizable Unblock Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "WORK_TYPE": {
+            "description": "WhatsAsena Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "required": true,
+            "value": "private"
+        },
         "HEROKU_APP_NAME": {
-            "description": "Use the same App name as first.",
+            "description": "Herokuda uygulama adı. App Name ile aynı olmalıdır! Heroku APP Name. Must be the same as the App name!",
             "required": true
         },
         "DEBUG": {
-            "description": "If you do not know this. Give it up.",
+            "description": "Geliştiricilere özeldir. For Developers => all, info, warn, fatal, error, debug, off",
             "required": true,
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "Here you, go to the website remove.bg and sign up and get an API key. Leave the API key in this space.",
+            "description": "Fotoğrafların arkaplanını kaldırır. https://remove.bg",
+            "value": "false",
             "required": false
         },
-        "NO_ONLINE": {
-            "description": "This is not necessarily the case.",
-            "required": false,
-            "value": "true"
+        "DEEPAI_API_KEY": {
+            "description": "DeepAI Komutu İçin API Key. For DeepAI Command ===> https://github.com/phaticusthiccy/WhatsAsenaDuplicated/wiki/DeepAI-API-Key",
+            "value": "false",
+            "required": false
         },
-        "COFFEEHOUSE_API_KEY": {
-            "description": "Give it up. We give you this.",
+        "ALIVE_MESSAGE": {
+            "description": "Customizable Alive Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BAN_MESSAGE": {
+            "description": "Customizable Ban Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "ADD_MESSAGE": {
+            "description": "Customizable Add Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "KICKME_MESSAGE": {
+            "description": "Customizable Kickme Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MESSAGE": {
+            "description": "Customizable Promote Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MESSAGE": {
+            "description": "Customizable Demote Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MESSAGE": {
+            "description": "Customizable AFK Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "GAN_IMAGE": {
+            "description": "Gan Style eklentisi için resim bağlantısı yazın. Type image link for Gan Style plugin.",
+            "required": true,
+            "value": "https://i.hizliresim.com/loUtAb.jpg"
+        },
+        "NO_ONLINE": {
+            "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
             "required": false,
             "value": "true"
         }
@@ -211,5 +165,5 @@
     }],
     "buildpacks": [{
       "url": "heroku-community/apt"
-    }]
-}
+      }]
+  }
