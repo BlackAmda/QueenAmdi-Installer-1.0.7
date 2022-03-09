@@ -4,10 +4,11 @@
 </div>
 <p align="center">
 
-  >Deploy Your Bot On Heroku ✏
-<div align="left"><a href=" https://heroku.com/deploy?template=https://github.com/VihagaThiksana1/QueenAmdi-Installer-1.0.7.git">
+  > >Deploy Your Bot On Heroku ✏  [HERAKU APP]( https://heroku.com/deploy?template=https://github.com/VihagaThiksana1/Thiksana-HM-BOT.git) HM Thiksana
+
 
  >scan  QR Code ✏
-<div align="left"><a href="https://replit.com/@BlackAmda/Queen-Amdi-QR-Code">
+[QR Code](https://replit.com/@BlackAmda/Queen-Amdi-QR-Code)
 
 # HI iam HM Vihaga Thiksana 
+> මේකට එන්න  SUPPORT GROUP  [MY WHATSAPP GROUP](https://chat.whatsapp.com/DVtNkqayhDfA2u5CmRNvHi) group
